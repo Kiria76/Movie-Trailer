@@ -1,10 +1,12 @@
 import webbrowser
 
 class Movie():
+    # Este cria a classe de atributos e comportamentos
 
     def __init__(self, movie_title, movie_storyline, poster_image,
                  trailer_youtube):
-        # a função __init__ cria espaço na memoria para title, storyline etc.
+      # Esta função será usada para fazer uma instância. Os argumentos serão"
+        "armazenados dentro de métodos que serão usados pelos objetos.
 
         self.title = movie_title
         self.storyline = movie_storyline
@@ -12,5 +14,5 @@ class Movie():
         self.trailer_youtube_url = trailer_youtube
 
     def show_trailer(self):
-        # abrir o browser com a aplicação
+        # Esta função é responsavel para abrir o Trailer
         webbrowser.open(self.trailer_youtube_url)
