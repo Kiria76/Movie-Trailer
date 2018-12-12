@@ -1,5 +1,7 @@
 import fresh_tomatoes
+# Fresh_tomatoes é para abrir a Website
 import media
+# Este modulo é para criar uma nova instancia
 
 moana = media.Movie(
 
@@ -51,4 +53,6 @@ the_lord_of_the_rings = media.Movie(
 
 movies = [moana, star_wars_the_last_jedi, the_hobbit_the_battle_of_the_five_armies,
           the_lion_king, the_little_mermaid, the_lord_of_the_rings]
+# Este modulo transfere objetos para a lista
 fresh_tomatoes.open_movies_page(movies)
+# Para chamar a função para abrir o site
